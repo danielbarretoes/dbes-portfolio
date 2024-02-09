@@ -4,13 +4,16 @@ const Hero = () => {
       <div className="flex justify-center">
         <img className="max-w-96 aspect-auto" src="/assets/ascii.png" alt="" />
       </div>
-      <div className="bg-gray-900 w-[80%] max-w-full mx-auto h-auto p-4 rounded-md">
+      <div className="bg-gray-900 w-[90%] max-w-full mx-auto h-auto p-4 rounded-md">
         <div className="w-fit mx-auto">
           <p className="inconsolata typewriter w-fit text-xl">
             I'm Daniel Barreto
           </p>
         </div>
       </div>
+      <button className="inconsolata p-4 bg-pink-950 mx-auto">
+        Contratar Hacker
+      </button>
     </div>
   );
 };
